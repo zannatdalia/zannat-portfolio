@@ -50,8 +50,23 @@ section{
     box-shadow: 10px 10px 40px gray;
     height: 50%;
     border-radius: 5px;
+    background-color: white;
 }
 .experience_area{
     background-image: url("image/exp-bg.png");
     background-repeat: no-repeat;
+}
+#full_stack{
+    border-left: 7px solid;
+    border-image:linear-gradient(180deg,lightsalmon,tomato) ;
+    border-image-slice: 1;
+}
+#baby_dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
 }
